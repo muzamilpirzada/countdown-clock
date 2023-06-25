@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: url('../image/pexels-daka-12567048.jpg') no-repeat center ;
+    background-size: cover;
+    
+}
+
+
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.title{
+    margin-top: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.col{
+    margin-top: 10px;
+    width: 1000px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.col div{
+    width: 250px;
+    text-align: center;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.5); 
+    text-align: center;
+    font-size: 40px;   
+}
